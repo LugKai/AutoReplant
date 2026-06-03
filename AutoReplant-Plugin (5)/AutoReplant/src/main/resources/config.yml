@@ -1,0 +1,29 @@
+# AutoReplant Configuration
+
+settings:
+  enabled: true
+  allow-player-toggle: true
+  # true = ต้องมีเมล็ดในกระเป๋า, false = ปลูกได้เลย
+  require-seeds: true
+  show-messages: true
+  default-enabled-for-new-players: true
+
+crops:
+  WHEAT: true
+  CARROTS: true
+  POTATOES: true
+  BEETROOTS: true
+  NETHER_WART: true
+  COCOA: true
+  SWEET_BERRY_BUSH: true
+  PITCHER_CROP: true
+  TORCHFLOWER_CROP: true
+
+messages:
+  replanted: "&aปลูกคืน &e{crop} &aแล้ว!"
+  no-seeds: "&cไม่มีเมล็ด &e{crop} &cในกระเป๋า!"
+  not-grown: "&eพืชยังไม่โตเต็มที่ รอให้โตก่อนนะ!"
+  toggle-on: "&aเปิด Auto Replant แล้ว!"
+  toggle-off: "&cปิด Auto Replant แล้ว!"
+  no-permission: "&cคุณไม่มีสิทธิ์ใช้คำสั่งนี้"
+  reloaded: "&aโหลด config ใหม่แล้ว!"
